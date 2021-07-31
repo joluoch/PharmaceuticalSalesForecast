@@ -7,7 +7,7 @@ from PIL import Image
 
 
 
-pickle_in = open(r"C:\Users\Jakinda\Documents\Python Scripts\10Academy\PharmaceuticalSalesPrediction\Notebook\mlruns\2\647811899b9f4fbcb1fb785e6c0d7f58\artifacts\RandomForestRegressor\model.pkl","rb")
+pickle_in = open(r"C:\Users\Jakinda\Documents\Python Scripts\10Academy\PharmaceuticalSalesForecast\pickle\model.pkl","rb")
 reg=pickle.load(pickle_in)
 
 
